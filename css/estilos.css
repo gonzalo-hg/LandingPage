@@ -1,0 +1,175 @@
+/*Eventos sobre video*/
+
+.video-responsive {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-iconos {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: rgb(134, 163, 105);
+}
+
+.row-icono {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    /*Hace que la transicion sea suave*/
+    transition: all 300ms;
+    opacity: 0;
+    transform: scale(0);
+    padding: 5px;
+}
+
+.icono-despliegue {
+    font-size: 40px;
+    transition: all 300ms;
+}
+
+.row-icono label {
+    font-size: 40px;
+}
+
+.contenedor-iconos:hover .fa-plus-circle {
+    transform: rotate(180deg);
+}
+
+.contenedor-iconos:hover .row-icono {
+    opacity: 1;
+}
+
+
+/*Pocision*/
+
+.icono1 {
+    /*Se mueve vertical y horizontla*/
+    transform: translate(100px, 100px) scale(0);
+}
+
+.icono2 {
+    /*Se mueve horizontal y vertical*/
+    transform: translate(-100px, -100px) scale(0);
+}
+
+.icono3 {
+    /*Se mueve vertical y horizontla*/
+    transform: translate(100px, 100px) scale(0);
+}
+
+.icono4 {
+    /*Se mueve vertical y horizontla*/
+    transform: translate(-100px, -100px) scale(0);
+}
+
+.icono5 {
+    /*Se mueve vertical y horizontla*/
+    transform: translate(200px, 100px) scale(0);
+}
+
+.icono6 {
+    /*Se mueve vertical y horizontla*/
+    transform: translate(-100px, -100px) scale(0);
+}
+
+
+/*Pocisiones para cuando se coloque el mouse sobre los elementos*/
+
+.contenedor-iconos:hover .icono1 {
+    /*Se mueve HORIZONTAL y VERTIcAL*/
+    transform: translate(-5px, -60px) scale(1);
+}
+
+.contenedor-iconos:hover .icono2 {
+    /*Se mueve HORIZONTAL y VERTIcAL*/
+    transform: translate(-5px, -120px) scale(1);
+}
+
+.contenedor-iconos:hover .icono3 {
+    /*Se mueve HORIZONTAL y VERTIcAL*/
+    transform: translate(-5px, -180px) scale(1);
+}
+
+.contenedor-iconos:hover .icono4 {
+    /*Se mueve HORIZONTAL y VERTIcAL*/
+    transform: translate(-5px, -240px) scale(1);
+}
+
+.contenedor-iconos:hover .icono5 {
+    /*Se mueve HORIZONTAL y VERTIcAL*/
+    transform: translate(-5px, -300px) scale(1);
+}
+
+.contenedor-iconos:hover .icono6 {
+    /*Se mueve HORIZONTAL y VERTIcAL*/
+    transform: translate(-5px, -360px) scale(1);
+}
+
+.facebook {
+    color: #4862a3;
+}
+
+.instagram {
+    color: #ab3838;
+}
+
+.twitter {
+    color: #1da0f2;
+}
+
+.mapa {
+    color: #048f04;
+}
+
+.telefono {
+    color: #95ad0d;
+}
+
+.correo {
+    color: rgb(10, 123, 143);
+}
+
+.menu-bar {
+    color: #0353BB;
+    padding: 0px 8px;
+}
+
+.menu-bar:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-header {
+    border-radius: 5px;
+}
+
+.contactForm {
+    padding: 10px;
+}
+
+.list-group-item {
+    font-size: .85rem;
+}
+
+.centrar {
+    justify-content: center;
+}
+
+.vineta {
+    transition: all 2s;
+    list-style: none;
+}

@@ -5086,7 +5086,7 @@ input[type="button"].btn-block {
 .card-header {
     padding: 0.75rem 1.25rem;
     margin-bottom: 0;
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: rgba(0, 0, 0, 0.3);
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
@@ -5820,7 +5820,7 @@ a.badge-dark.focus {
 .list-group-item {
     position: relative;
     display: block;
-    padding: 0.75rem 1.25rem;
+    padding: 0.5rem .25rem;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.125);
 }
@@ -10599,7 +10599,6 @@ a.text-dark:focus {
 }
 
 .divtituloheader {
-    background-color: rgba(0, 0, 0, 0.65);
     margin: auto;
 }
 
@@ -10619,8 +10618,8 @@ a.text-dark:focus {
 
 .titulo {
     font-family: "Roboto";
-    font-weight: bold;
-    color: #0353BB;
+    font-weight: 40px;
+    color: #080808;
 }
 
 .parrafoheader {
@@ -10631,8 +10630,8 @@ a.text-dark:focus {
 
 .margeninterno {
     padding: 5%;
-    padding-bottom: -15%;
     margin: auto;
+    font-size: 30px;
 }
 
 .sub1 {
@@ -10693,10 +10692,6 @@ section {
     margin: auto;
 }
 
-.footer {
-    color: #ffffff;
-}
-
 .servicio-icon {
     display: inline-block;
     margin: auto;
@@ -10733,26 +10728,6 @@ section {
 
 .marginsub {
     padding: 20px;
-}
-
-.video-responsive {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16/9 ratio */
-    padding-top: 30px;
-    /* IE6 workaround*/
-    height: 0;
-    overflow: hidden;
-}
-
-.video-responsive iframe,
-.video-responsive object,
-.video-responsive embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 
@@ -10881,7 +10856,7 @@ section {
 .jumbotron_ic {
     padding: 0rem 0rem;
     margin-bottom: 0rem;
-    background-image: url("../images/headers/inteligenciacomercial.jpg");
+    background-image: url("../images/headers/eligenciacomercial.jpg");
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -10923,9 +10898,9 @@ section {
 }
 
 .navtext {
-    font-size:
+    font-size: 20px;
 }
 
-navtext {
-    font-size:
+.navtext {
+    font-size: 30px;
 }
